@@ -47,16 +47,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        grade: {
+          hg: "hsl(var(--grade-hg))",
+          mg: "hsl(var(--grade-mg))",
+          sd: "hsl(var(--grade-sd))",
+          pg: "hsl(var(--grade-pg))",
+          rg: "hsl(var(--grade-rg))",
         },
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        display: ['Orbitron', 'Inter', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
